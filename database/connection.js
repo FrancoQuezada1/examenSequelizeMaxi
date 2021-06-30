@@ -7,7 +7,7 @@ const connection = new Sequelize(config.database_name, config.database_user, con
     host: 'localhost',
     dialect: 'mysql'
 });
-
+//aqui maxi si no las vos a usar no es necesario que los traigas podes tranquilamente ejecutar solo la funcion.
 const { Client, Project, Worker, Team, WorkerProject, ClientProject } = initialModels(connection, Sequelize);
 
 connection.sync({ force: false }).then(() => {

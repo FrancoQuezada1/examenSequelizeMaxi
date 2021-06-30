@@ -27,3 +27,4 @@ module.exports = (connection, sequelize) => {
         ClientProject: clients_projectsModel
     }
 }
+
